@@ -64,7 +64,7 @@ app.put('/register/:id', async(req, res) => {
 mongoose.set("strictQuery", false)
 mongoose.connect('mongodb+srv://admin:Jujualex1.@dugotapi.fro1tji.mongodb.net/Node-API?retryWrites=true&w=majority')
     .then(() => {
-        app.listen(3000, () => {
+        app.listen("https://flamming1445.github.io/APIgame/", () => {
             console.log("API is running on port 3000");
         })
         console.log('connected to database')
