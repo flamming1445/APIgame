@@ -38,7 +38,7 @@ app.get('/register/:id', async(req, res) => {
     }
 })
 
-app.post('/register', async(req, res) => {
+app.post('https://flamming1445.github.io/APIgame/register', async(req, res) => {
     try {
         const product = await Register.create(req.body)
         res.status(200).json()
