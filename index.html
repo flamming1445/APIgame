@@ -5,12 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/signup.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Options</button>
+                    <div class="dropdown-content">
+                        <a href="page1.html">Option 1</a>
+                        <a href="page2.html">Option 2</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="site-presentation">
+        <h2>Welcome to my website</h2>
+        <p>Here at my website, we offer a wide range of products/services that cater to your needs. Our team of experts are dedicated to providing top-notch service and ensuring your satisfaction.</p>
+        <p>Feel free to browse through our selection and don't hesitate to contact us if you have any questions or concerns.</p>
+    </div>
     <div class="container">
-        <span class="header">FakeTwitter</span>
         <form action="http://localhost:3000/register" method="post">
             <label for="username">Nom d'utilisateur</label>
             <input type="text" id="username" name="username">
